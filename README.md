@@ -344,8 +344,8 @@ PhD Candidate
 Department of Evolutionary and Environmental Biology  
 University of Haifa, Israel
 
-**Email:** [your.email@example.com]  
-**ORCID:** [https://orcid.org/0000-0000-0000-0000]
+**Email:** shaul@evo.haifa.ac.il  
+**ORCID:** https://orcid.org/0000-0001-9375-3850
 
 **Supervisors:**
 - Prof. Abraham B. Korol ([email@example.com])
