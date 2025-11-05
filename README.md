@@ -33,6 +33,8 @@ This research establishes NCOI as a biologically significant phenomenon with imp
 
 ```
 NCOI-metaanalysis/
+├── Chapter3/ 
+├── Chapter5/ 
 ├── data/                          # All datasets used in the dissertation
 ├── figures/                       # Figures organized by dissertation chapters  
 ├── scripts/                       # Python analysis code
@@ -219,13 +221,13 @@ python scripts/05_genomic_correlations/wheat_feature_analysis.py \
 
 ## Publications
 
-### Published / In Press
+**Chapter 2:** Extended gamma-sprinkled model for crossover interference
 
+### Published / In Press
 **Sapielkin, S., Korol, A.B., Privman, E.** (2025). Accounting for sex differences in recombination rates reduces bias in crossover interference estimation in F2 populations. *BMC Genomics* (in press).
 
 ### Chapters as Preprints
 
-- **Chapter 2:** Extended gamma-sprinkled model for crossover interference
 - **Chapter 3:** Sex-aware maximum likelihood estimation framework
 - **Chapter 4:** Phylogenetic patterns of NCOI across eukaryotes
 - **Chapter 5:** Genomic determinants of NCOI in wheat
