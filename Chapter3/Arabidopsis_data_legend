@@ -1,0 +1,30 @@
+Introduction
+This repository provides Arabidopsis thaliana population datasets measuring meiotic interference parameters using triplet marker models. Each dataset includes standardized output from Dr. Ronin’s analysis pipeline, formatted for direct import and downstream comparison.
+
+Column Glossary
+Column	Description	Scientific Term (EN)
+k	Triplet index, unique	Marker triplet index
+r12	Recombination fraction, interval 1–2	Recombination rate r₁₂
+r23	Recombination fraction, interval 2–3	Recombination rate r₂₃
+c	Coefficient of coincidence (global/model-specific)	Coefficient of Coincidence (COC, c)
+Lmax_r12	Maximum log-likelihood (r₁₂)	Log-likelihood for r₁₂
+Lmax_r23	Maximum log-likelihood (r₂₃)	Log-likelihood for r₂₃
+Lmax_c	Maximum log-likelihood (c)	Log-likelihood for c
+mc0	Sex-specific COC (group 1/female)	COC, Female Group
+mc1	Sex-specific COC (group 2/male)	COC, Male Group
+prog, var	Data identifiers (input program/variant)	Source/data annotation
+smrs120, smrs230, smrs121, smrs231	Marker codes (interval boundaries)	Marker name/codes
+spopul	Population label	Population/region name
+nsc	Number of individuals	Sample size
+Lm	Genetic map length	Chromosome map length (cM)
+H0-H3	Likelihood ratio statistics (nested model comparisons)	LR test statistic
+Model Sequence and Blocks
+Triplet models proceed hierarchically as follows:
+
+No sex difference: Single r’s, single c
+
+No interference: c fixed at 1
+
+Sex-specific recombination: r₁₂, r₂₃ by sex; c may be shared or separate
+
+Sex-specific interference: Separate c for each sex (mc0, mc1)
