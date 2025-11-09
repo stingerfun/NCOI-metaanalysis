@@ -184,14 +184,6 @@ python scripts/01_data_processing/quality_control.py \
     --min_individuals 100
 ```
 
-**Extended gamma-sprinkled model:**
-```python
-# Estimate interference parameters
-python scripts/02_gamma_model/extended_gamma_sprinkled.py \
-    --data data/processed_intervals.csv \
-    --output results/model_estimates.csv
-```
-
 **Sex-aware MLE framework (Chapter 3):**
 ```python
 # Run sex-aware analysis
