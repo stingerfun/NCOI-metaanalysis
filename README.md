@@ -64,17 +64,6 @@ High-resolution figures from the dissertation, organized by chapter:
 
 ### 💻 `scripts/`
 
-Python analysis code organized by dissertation chapter:
-
-**Data processing and quality control:**
-- Quality control using MultiPoint software criteria
-- Coefficient of Coincidence (CoC) calculations
-- Interference type classification
-
-**Extended gamma-sprinkled model (Chapter 2):**
-- Three-component model implementation (ν>1, ν=1, ν<1)
-- Maximum likelihood estimation
-- Likelihood ratio testing (H₀, H₁, H₂)
 
 **Sex-aware MLE framework (Chapter 3):**
 - Sex-aware maximum likelihood estimation for F2 populations
