@@ -251,7 +251,7 @@ All data used in this dissertation are publicly available:
 
 - **Raw segregation data:** Available in `data/` directory and permanently archived on Zenodo (DOI: 10.5281/zenodo.XXXXXX)
 - **Wheat genomic features:** Sourced from IWGSC RefSeq v2.1 and URGI wheat genome browser
-- **Simulation datasets:** Complete simulation data available in `data/simulation_data/`
+- **Simulation datasets:** Complete simulation data available in `Chapter3/`
 
 ### Data Sources
 
@@ -282,27 +282,9 @@ See `requirements.txt` for complete list and exact versions.
 
 ---
 
-## Repository Organization
-
-### Data Files
-
-- **`data/raw_data/`** - Original segregation data from literature sources
-- **`data/processed_data/`** - Quality-controlled and standardized datasets
-- **`data/simulation_data/`** - Sex-aware MLE simulation results
-- **`data/wheat_genomic_features/`** - Epigenomic data for correlation analysis
-
-### Analysis Scripts
-
-- **`scripts/01_data_processing/`** - Data cleaning, QC, and CoC calculation
-- **`scripts/02_gamma_model/`** - Extended gamma-sprinkled model implementation
-- **`scripts/03_sex_aware_MLE/`** - Sex-aware MLE framework (Chapter 3)
-- **`scripts/04_phylogenetic_analysis/`** - Phylogenetic patterns (Chapter 4)
-- **`scripts/05_genomic_correlations/`** - Genomic feature analysis (Chapter 5)
-- **`scripts/utils/`** - Utility functions and helpers
-
 ### Documentation
 
-Each subdirectory contains a `README.md` with detailed information about:
+Subdirectory contains a `README.md` with detailed information about:
 - File contents and formats
 - Usage instructions
 - Expected inputs and outputs
