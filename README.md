@@ -160,45 +160,6 @@ conda activate ncoi-metaanalysis
 
 ---
 
-## Usage
-
-### Reproducing Main Analyses
-
-**Data processing and QC:**
-```python
-# Example: Quality control and CoC calculation
-python scripts/01_data_processing/quality_control.py \
-    --input data/raw_segregation_data.csv \
-    --output data/processed_intervals.csv \
-    --min_individuals 100
-```
-
-**Sex-aware MLE framework (Chapter 3):**
-```python
-# Run sex-aware analysis
-python scripts/03_sex_aware_MLE/sex_aware_framework.py \
-    --input data/F2_datasets.csv \
-    --output results/sex_aware_estimates.csv
-```
-
-**Phylogenetic analysis (Chapter 4):**
-```python
-# Analyze phylogenetic patterns
-python scripts/04_phylogenetic_analysis/chapter4_main_analysis.py \
-    --data data/processed_intervals.csv \
-    --output results/phylogenetic_summary.csv
-```
-
-**Genomic correlations (Chapter 5):**
-```python
-# Wheat genomic feature correlations
-python scripts/05_genomic_correlations/wheat_feature_analysis.py \
-    --features data/wheat_genomic_features/ \
-    --ncoi data/wheat_ncoi_data.csv \
-    --output results/correlation_analysis.csv
-```
-
----
 
 ## Publications
 
